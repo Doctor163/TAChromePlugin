@@ -1,0 +1,116 @@
+/* GENERAL */
+body {
+    width: 350px;
+    margin: 0;
+    background-color: #DCEDDB;
+}
+.page {display: none;}
+#loading-page {
+    display: block;
+}
+
+/* FONTS */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(../fonts/MaterialIcons-Regular.woff2) format('woff2'),
+    url(../fonts/MaterialIcons-Regular.woff) format('woff'),
+    url(../fonts/MaterialIcons-Regular.ttf) format('truetype');
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px !important;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+/* HEADER */
+#title {
+    padding-left: 10px;
+}
+
+/* FOOTER */
+#credits {
+    float: right;
+}
+#logout {
+    font-size: 14px;
+    display: none;
+}
+
+/*LOADING PAGE*/
+#loading-page {
+    padding: 25px;
+}
+#loading-page .preloader-wrapper {
+    display: block;
+    margin: auto;
+}
+#loading-text {
+    margin-top: 40px;
+    font-style: italic;
+    font-weight: 600;
+}
+#title::after {
+    content: '';
+    display: block;
+    width: 100%;
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+    border-top: 1px solid black;
+}
+
+/* LOGIN */
+#login-info p {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#login-info input {
+    margin-bottom: 5px;
+}
+button[name='login'] {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+/* MARKS */
+#marks-page {
+    margin-top: 25px;
+}
+.course h6 {
+    font-weight: 600;
+    font-size: 16px;
+}
+.course p {
+    font-style:italic;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+/* MODAL */
+#modal_content {
+    font-size: 16px;
+}

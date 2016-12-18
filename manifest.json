@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "TeachAssist chrome Plugin",
+  "description": "This extension shows current marks from TeachAssist",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "favicon-0.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage",
+    "https://ta.yrdsb.ca/"
+  ]
+}
